@@ -154,7 +154,7 @@ tl2.to("#fanta",{
         rotation: "0deg",
         top: "0%",
         left: "51%",
-        duration: 2,
+        duration: 2.1,
     }, 0);
 
 

@@ -255,6 +255,11 @@ nav i{
     margin-top: -5vh;
 }
 
+.card:hover,.card2:hover{
+    transform: rotate(0.5deg);
+    transition: transform 3.8 ease-in-out;
+}
+
 .card h1,.card2 h1{
     margin-top: 40vh;
     font-size: 2.1vw;
@@ -272,13 +277,17 @@ nav i{
     cursor: pointer;
 }
 
+.card button:hover,.card2 button:hover{
+    transform: scale(1.05);
+}
+
 #cold_brew_pumpkin{
     top: -12%;
     position: absolute;
     width: 110%;
     left: -50%;
     transform: translate(-50%, 0%);
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 #cocacola{
@@ -287,7 +296,7 @@ nav i{
     width: 85%;
     left: -80%;
     transform: translate(-50%, 0%);
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 
@@ -297,16 +306,16 @@ nav i{
     width: 50%;
     left: 190%;
     transform: translate(-50%, 0%);
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 #ChickenWrapBurgerKing{
-    top: 7%;
+    top: 8%;
     position: absolute;
     width: 70%;
     left: 165%;
     transform: translate(-50%, 0%);
-    transition: all 0.5s cubic-bezier(0.19, 1, 0.22, 1);
+    transition: all 1s cubic-bezier(0.19, 1, 0.22, 1);
 
 }
 #Cocktail-Ice-Drink{
@@ -466,6 +475,10 @@ nav i{
     margin: 10px 80px;
 }
 
+.footer-group-one h3{
+    text-decoration: underline;
+}
+
 
 .footer-group-one h4{
     margin: 10px;
@@ -475,7 +488,7 @@ nav i{
 .footer-group-one ul li a,.footer-group-two ul li a{
     text-decoration: none;
     color: black;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .copyright{
@@ -498,6 +511,7 @@ nav i{
 .footer-icon-main h4{
    margin-left: 100px;
    font-family: Georgia, 'Times New Roman', Times, serif;
+   text-decoration: underline;
 
 }
 
