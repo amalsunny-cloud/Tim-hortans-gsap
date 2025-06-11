@@ -20,7 +20,7 @@ tl.to("#center-image-main",{
 
 
 tl.to("#spindrift_lime",{
-    top:"135%",
+    top:"142%",
     rotate: "360deg",
     left: "3.5%",
     scale:1.6,

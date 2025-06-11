@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Arima", system-ui;    scroll-behavior: smooth;
+    font-family: "Arima", system-ui;
+    scroll-behavior: smooth;
 
 }
 html , body{
@@ -72,22 +73,28 @@ nav i{
     width: 400px;
     height: 400px;
     display: flex;
+    align-items: center;
     flex-direction: column;
     margin-left: -700px;
-    margin-top: 180px;
+    margin-top: 150px;
+    text-align: center;
+    
 }
 
 .one-half button{
-    background-color: red;
+    background-color: rgb(49, 29, 29);
     color: rgb(255, 255, 255);
     width: 100px;
     height: 50px;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     font-size: 19px;
-    margin-top: 40px;
-    margin-left: 100px;
+    /* margin-top: 40px;
+    margin-left: 100px; */
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
     
 }
@@ -110,6 +117,7 @@ nav i{
     line-height: 56px;
     color: rgb(255, 255, 255); 
     -webkit-text-stroke: 1px rgb(140, 135, 113); 
+    margin-bottom: 30px;
 
 }
 
@@ -164,7 +172,7 @@ nav i{
     position: absolute;
     width: 15%;
     top: 10%;
-    right: -1%;
+    right: -20%;
 }
 
 .two{
@@ -184,6 +192,13 @@ nav i{
     gap: 5vh;
     width: 50%;
     height: 100%;
+        background:linear-gradient(90deg, rgb(249, 237, 215), rgba(69, 49, 1, 0.038));
+
+}
+.rght-two{
+            background:linear-gradient(-90deg, rgba(69, 49, 1, 0));
+            /* background:linear-gradient(-90deg, rgb(249, 237, 215), rgba(69, 49, 1, 0.06)); */
+
 }
 
 .lft-two svg{
@@ -199,7 +214,8 @@ nav i{
 
 .rght-two p{
     font-size: 1.4vw;
-    color: #fff;
+    color: #000000;
+    /* color: #fff; */
     width: 80%;
 }
 
@@ -256,8 +272,8 @@ nav i{
 }
 
 .card:hover,.card2:hover{
-    transform: rotate(0.5deg);
-    transition: transform 3.8 ease-in-out;
+    transform: rotate(0.8deg);
+    transition: transform 0.8s ease-in-out;
 }
 
 .card h1,.card2 h1{
