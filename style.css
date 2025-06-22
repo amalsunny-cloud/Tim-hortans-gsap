@@ -65,7 +65,6 @@ nav i{
     justify-content: center;
     width: 100%;
     height: 100vh;
-    /* background:linear-gradient(150deg, rgb(249, 237, 215), rgb(143, 75, 35)); */
     background:linear-gradient(150deg, rgb(249, 237, 215), rgb(69, 49, 1));
 }
 
@@ -89,8 +88,6 @@ nav i{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 30px;
     font-size: 19px;
-    /* margin-top: 40px;
-    margin-left: 100px; */
     cursor: pointer;
     display: flex;
     justify-content: center;
@@ -179,7 +176,6 @@ nav i{
     display: flex;
     width: 100%;
     height: 100vh;
-    /* background:#74513f ; */
     background:#595a37 ;
     
 }
@@ -192,12 +188,11 @@ nav i{
     gap: 5vh;
     width: 50%;
     height: 100%;
-        background:linear-gradient(90deg, rgb(249, 237, 215), rgba(69, 49, 1, 0.038));
+    background:linear-gradient(90deg, rgb(249, 237, 215), rgba(69, 49, 1, 0.038));
 
 }
 .rght-two{
-            background:linear-gradient(-90deg, rgba(69, 49, 1, 0));
-            /* background:linear-gradient(-90deg, rgb(249, 237, 215), rgba(69, 49, 1, 0.06)); */
+    background:linear-gradient(-90deg, rgba(69, 49, 1, 0));
 
 }
 
@@ -215,7 +210,6 @@ nav i{
 .rght-two p{
     font-size: 1.4vw;
     color: #000000;
-    /* color: #fff; */
     width: 80%;
 }
 
@@ -235,7 +229,6 @@ nav i{
     width: 100%;
     height: 110vh;
     background:linear-gradient(150deg, rgb(168, 155, 131), rgb(69, 49, 37));
-    /* background:linear-gradient(150deg, rgb(93, 84, 68),#595a37 ); */
     
     padding-top: 50px;
     padding-bottom: 90px;
@@ -247,7 +240,6 @@ nav i{
     gap: 5vw;
     width: 100%;
     height: 110vh;
-    /* background:linear-gradient(150deg, rgb(67, 56, 35), rgb(69, 49, 37)); */
     background:linear-gradient(150deg, rgb(168, 155, 131), rgb(69, 49, 37));
 
     padding-top: -180px;
@@ -267,7 +259,6 @@ nav i{
     background-color: #fff;
 }
 .card2{
-    /* margin-top: -48vh; */
     margin-top: -5vh;
 }
 
@@ -427,7 +418,6 @@ nav i{
 }
 .app-show-inner {
     height: 560px;
-    /* background-color: cornflowerblue; */
     background-color: rgb(175, 168, 161);
     border-radius: 40px;
     width: 72%;
@@ -511,6 +501,7 @@ nav i{
     padding: 10px;
     margin-top: 20px;
     text-align: center;
+    padding-bottom: 0px;
     
 }
 
@@ -547,7 +538,6 @@ ul li a{
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* margin: 40px 320px; */
     margin: 40px auto;
     padding: 80px;
     padding-bottom: 130px;
@@ -571,3 +561,12 @@ ul li a{
     margin-top: 20px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
+
+
+
+  
+
+
+  
+
+  

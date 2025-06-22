@@ -126,7 +126,7 @@ tl2.to("#fanta",{
         scrollTrigger: {
             trigger: ".three-half",
             start: "top 60%",
-            end: "bottom 157%",
+            end: "bottom 120%",
             scrub: true,
             ease: "power2.inOut",
 
